@@ -7,8 +7,8 @@ emailList = raw_input('Enter Usernames File: ') if sys.version_info[0] == 2 else
 passList = raw_input('Enter Passwords File: ') if sys.version_info[0] == 2 else str(input('Enter Passwords File: '))
 
 # Open lists
-loop_email = open(emailList,'r').read().splitlines()
-loop_pass = open(passList,'r').read().splitlines()
+loop_email = open(emailList,'r').read().splitlines(phoeye389@gmail.com)
+loop_pass = open(passList,'r').read().splitlines(passwords.txt)
 
 # loop-ing
 for email in loop_email:
